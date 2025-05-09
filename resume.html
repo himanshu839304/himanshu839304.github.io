@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INAAMA JAY - Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        nav {
+            background-color: #1e1e1e;
+        }
+
+        .nav-link {
+            color: #bbb !important;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ff0055 !important;
+            text-shadow: 0 0 5px #ff0055;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+
+        .nav-tabs {
+            justify-content: center;
+            border-bottom: none;
+        }
+
+        .nav-tabs .nav-link {
+            border: none;
+            color: #ccc;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease;
+            margin: 0 10px;
+            padding: 12px 20px;
+            border-radius: 10px;
+        }
+
+        .nav-tabs .nav-link:hover {
+            color: #dc3545;
+            box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #2a2a2a;
+            color: #dc3545;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
+        }
+
+        .resume-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease;
+        }
+
+        .resume-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(255, 0, 0, 0.3);
+        }
+
+        .text-danger-light {
+            color: #ff4d4d;
+        }
+
+        .view-btn {
+            background-color: #dc3545;
+            color: #fff;
+            border-radius: 25px;
+            padding: 0.6rem 1.4rem;
+            font-weight: bold;
+            transition: 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+        }
+
+        .view-btn:hover {
+            background-color: #ff0000;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(255, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="image/himanshu.jpg" alt="Logo" height="40" width="40"
+                    class="rounded-circle shadow-sm border border-light">
+                <span>HIMANSHU YADAV</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">RESUME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="price.html">PRICING</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">My Resume</h2>
+
+            <!-- Tabs -->
+            <ul class="nav nav-tabs" id="resumeTabs">
+                <li class="nav-item">
+                    <button class="nav-link active" data-tab="education">Education</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-tab="skills">Professional Skills</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-tab="experience">Experience</button>
+                </li>
+            </ul>
+
+            <!-- Content -->
+            <div id="tab-content" class="mt-4">
+                <!-- Education -->
+                <div id="education" class="tab-pane active">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <h5 class="text-danger-light">2024 - 2025</h5>
+                            <h4>Education Quality</h4>
+                            <div class="resume-card mt-3">
+                                <h5>Diploma Computer Science</h5>
+                                <small class="text-muted">Air University (2013 - 2016)</small>
+                                <p class="mt-2">A Diploma in Computer Science is a foundational technical program that
+                                    provides students with essential knowledge and practical skills in computing,
+                                    programming, and information technology. This course typically covers subjects like
+                                    computer fundamentals, programming languages (such as C, Python, or Java), data
+                                    structures, database management, web development, networking, and software
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-danger-light">2024 - 2025</h5>
+                            <h4>Job Experience</h4>
+                            <div class="resume-card mt-3">
+                                <h5>SENIOR Full Stack Development</h5>
+                                <small class="text-muted">AKSA SDS (2020 - 2021)</small>
+                                <p class="mt-2">Senior Full Stack Development refers to advanced expertise in building
+                                    complete web or software applications by managing both frontend (client-side) and
+                                    backend (server-side) development .
+                                    architecture, and DevOps. They are capable of designing scalable systems, leading
+                                    development teams, writing clean and maintainable code, and deploying secure and
+                                    high-performance applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div id="skills" class="tab-pane d-none">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="text-danger-light">Design Tools</h4>
+                            <ul>
+                                <li>Advance Microsoft Word</li>
+                                <li>Advance Microsoft Powerpoint</li>
+                                <li>Advance Microsoft Excel</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="text-danger-light">Development</h4>
+                            <ul>
+                                <li>HTML, CSS</li>
+                                <li>React, Bootstrap</li>
+                                <li>JavaScript, Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div id="experience" class="tab-pane d-none">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="resume-card">
+                                <h5>Lead Product Designer</h5>
+                                <small class="text-muted">Freelancer | 2022 - Present</small>
+                                <p>Handling web/app design projects for global clients. Leading creative direction and
+                                    front-end implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Buttons -->
+            <div class="text-center mt-5">
+                <a href="" target="_blank" class="view-btn me-3">View Project 1</a>
+                <a href="" target="_blank" class="view-btn me-3">View Project 2</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Tab Switching Script -->
+    <script>
+        const tabs = document.querySelectorAll('#resumeTabs .nav-link');
+        const panes = document.querySelectorAll('.tab-pane');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                panes.forEach(p => p.classList.add('d-none'));
+
+                tab.classList.add('active');
+                const target = document.getElementById(tab.dataset.tab);
+                target.classList.remove('d-none');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

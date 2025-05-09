@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar {
+            background-color: #1a1a1a;
+        }
+
+        .nav-link {
+            color: #bbb !important;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #dc3545 !important;
+        }
+
+        .tab-btns .nav-link {
+            color: #aaa;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .tab-btns .nav-link:hover {
+            color: #dc3545;
+            box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+        }
+
+        .tab-btns .nav-link.active {
+            background-color: #222;
+            color: #dc3545;
+            box-shadow: 0 6px 15px rgba(255, 0, 0, 0.4);
+        }
+
+        .pricing-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: 0.4s ease;
+        }
+
+        .pricing-card.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .view-btn {
+            background-color: #dc3545;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .view-btn:hover {
+            background-color: #ff1f1f;
+            box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+            transform: scale(1.05);
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="image/himanshu.jpg" alt="Logo" height="40" width="40"
+                    class="rounded-circle shadow-sm border border-light">
+                <span>HIMANSHU YADAV</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">RESUME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="price.html">PRICING</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pricing Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title">My Pricing</h2>
+
+            <!-- Tabs -->
+            <ul class="nav tab-btns justify-content-center mb-4" id="pricingTabs">
+                <li class="nav-item"><button class="nav-link active" data-tab="static">Static</button></li>
+                <li class="nav-item"><button class="nav-link" data-tab="standard">Standard</button></li>
+                <li class="nav-item"><button class="nav-link" data-tab="premium">Premium</button></li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div id="static" class="tab-pane">
+                <div class="pricing-card show">
+                    <h5>Make Your Single Page <span class="text-danger float-end">₹ 7,999</span></h5>
+                    <p><small>Elementor | Static Page</small></p>
+                    <ul>
+                        <li>✔ 1 Page with Elementor</li>
+                        <li>✔ Design Customization</li>
+                        <li>✔ Responsive Design</li>
+                        <li>✔ Content Upload</li>
+                        <li>✔ 2 Plugins/Extensions</li>
+                    </ul>
+                    <a href="#" class="view-btn mt-3">View Project</a>
+                </div>
+            </div>
+
+            <div id="standard" class="tab-pane d-none">
+                <div class="pricing-card show">
+                    <h5>Standard Package <span class="text-danger float-end">₹ 13,999</span></h5>
+                    <p><small>Multi-page with Figma</small></p>
+                    <ul>
+                        <li>✔ Multiple Pages</li>
+                        <li>✔ Figma Design</li>
+                        <li>✔ Content Upload</li>
+                        <li>✔ 6 Plugins</li>
+                        <li>✔ Maintenance Support</li>
+                    </ul>
+                    <a href="#" class="view-btn mt-3">View Project</a>
+                </div>
+            </div>
+
+            <div id="premium" class="tab-pane d-none">
+                <div class="pricing-card show">
+                    <h5>Premium Package <span class="text-danger float-end">₹ 35,999</span></h5>
+                    <p><small>Full CMS, SEO & XD Design</small></p>
+                    <ul>
+                        <li>✔ Custom Website</li>
+                        <li>✔ All Devices + SEO</li>
+                        <li>✔ Premium XD Design</li>
+                        <li>✔ Unlimited Plugins</li>
+                        <li>✔ Hosting Setup</li>
+                    </ul>
+                    <a href="#" class="view-btn mt-3">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap + JavaScript Tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tabButtons = document.querySelectorAll("#pricingTabs .nav-link");
+        const tabContents = document.querySelectorAll(".tab-pane");
+
+        tabButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                tabButtons.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                const target = btn.getAttribute("data-tab");
+
+                tabContents.forEach(tab => {
+                    tab.classList.add("d-none");
+                    tab.classList.remove("show");
+                });
+
+                const activeTab = document.getElementById(target);
+                activeTab.classList.remove("d-none");
+                setTimeout(() => activeTab.classList.add("show"), 100);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
