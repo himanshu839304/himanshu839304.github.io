@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+    .cart {
+        width: 21%;
+        height: 80px;
+        margin-top: 30px;
+
+        i {
+            font-size: 35px;
+            padding: 15px;
+            color: rgb(34, 230, 138);
+        }
+
+        a {
+            font-size: 19px;
+            text-decoration: none;
+            color: hsl(72, 3%, 34%);
+            padding: 10px;
+        }
+
+        .face {
+            width: 30px;
+            height: 30px;
+            float: right;
+            display: flex;
+            margin-right: 25px;
+            margin-top: -15px;
+
+
+            i {
+                font-size: 22px;
+                color: hsl(210, 1%, 49%);
+            }
+        }
+    }
+}
+
+.main {
+    width: 99.5%;
+    height: 1100px;
+    background-color: #000000;
+    margin: 0 auto;
+    padding-top: 170px;
+
+    .box {
+        width: 45%;
+        height: 250px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-size: 53px;
+            color: #ffff;
+        }
+
+        p {
+            font-size: 20px;
+            color: hsl(210, 1%, 56%);
+        }
+    }
+
+    .contact {
+        width: 70%;
+        height: 520px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        .top {
+            width: 95%;
+            height: 80px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .card {
+                width: 30%;
+                height: 90px;
+
+                .our {
+                    width: 23%;
+                    height: 70px;
+                    margin-top: 10px;
+
+                    .circla {
+                        width: 50px;
+                        height: 50px;
+                        background-color: hsl(180, 10%, 14%);
+                        border-radius: 50%;
+                        margin: 0 auto;
+
+                        i {
+                            font-size: 25px;
+                            color: hsl(157, 72%, 28%);
+                            padding: 14px;
+                        }
+                    }
+
+                    .circla:hover {
+                        background-color: hsl(157, 63%, 40%);
+                        cursor: pointer;
+                        i {
+                            color: hsl(0, 0%, 100%);
+                        }
+                    }
+                }
+
+                .adam {
+                    width: 75%;
+                    height: 70px;
+                    float: right;
+
+                    h3 {
+                        font-size: 22px;
+                        color: rgb(108, 109, 109);
+                        padding-top: 10px;
+                    }
+
+                    p {
+                        color: rgb(173, 169, 169);
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 400px;
+            input {
+                width: 46%;
+                height: 50px;
+                border: 2px solid rgb(42, 42, 42);
+                background-color: hsl(210, 3%, 12%);
+                color: rgb(95, 97, 98);
+                margin-top: 25px;
+                margin-left: 15px;
+                padding-left: 20px;
+                font-size: 18px;
+                border-radius: 5px;
+            }
+
+            input :hover {
+                background-color: red;
+            }
+
+            button {
+                width: 170px;
+                height: 44px;
+                background-color: hsl(157, 63%, 40%);
+                font-size: 17px;
+                color: white;
+                border: none;
+                margin-left: 380px;
+                margin-top: 40px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            button:hover {
+                background-color: hsl(157, 76%, 17%);
+            }
+        }
+    }
+
+    .line {
+        width: 100%;
+        height: 100px;
+        background-color: #000000;
+        margin: 0 auto;
+        margin-top: 55px;
+
+        p {
+            color: hsl(200, 2%, 62%);
+            text-align: center;
+            padding-top: 40px;
+            border-top: 2px solid rgb(12, 12, 12);
+            font-size: 18px;
+
+            span {
+                color: hsl(164, 23%, 52%);
+                font-size: 19px;
+            }
+        }
+    }
+
+}

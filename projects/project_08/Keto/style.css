@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 90%;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        color: black;
+        float: right;
+        padding: 23px;
+        margin-right: 11px;
+        margin-top: 10px;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+}
+
+.hero {
+    width: 99%;
+    height: 700px;
+    background-image: url(../banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .online {
+        width: 33%;
+        height: 400px;
+        background-color: #000000c7;
+        ;
+        border-left: 5px solid red;
+        margin-left: 100px;
+        margin-top: 140px;
+        position: absolute;
+
+        h1 {
+            font-family: playfair display;
+            font-size: 30px;
+            color: white;
+        }
+
+        h3 {
+            color: white;
+            margin-left: 25px;
+            padding-top: 12px;
+            font-family: red Hat display;
+        }
+
+        input {
+            width: 80%;
+            height: 47px;
+            background-color: transparent;
+            color: white;
+            font-size: 20px;
+            border: 2px solid;
+            margin-top: 12px;
+            margin-left: 24px;
+            padding-left: 14px;
+        }
+
+        i {
+            color: white;
+            margin-left: -38px;
+            font-size: 24px;
+        }
+
+        button {
+            background-color: red;
+            max-width: 189px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px 0;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 20px;
+            transition: ease-in 0.5s;
+            display: block;
+            margin-top: 58px;
+            margin-left: 110px;
+        }
+    }
+}
+
+.select {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    .left {
+        width: 40%;
+        height: 400px;
+        float: left;
+
+        h1 {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-top: 29px;
+            padding-right: 20px;
+            padding-left: 20px;
+            color: #666666;
+        }
+
+        button {
+            background-color: black;
+            max-width: 159px;
+            width: 100%;
+            padding: 10px 0;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 20px;
+            transition: ease-in 0.5s;
+            display: block;
+            border: none;
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+    }
+
+    .right {
+        width: 57%;
+        height: 400px;
+        float: right;
+
+        img {
+            width: 100%;
+            height: 400px;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: dancing script;
+    font-size: 40px;
+}
+
+p {
+    color: #666666;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.our-room {
+    width: 80%;
+    height: 920px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+        width: 32%;
+        height: 420px;
+        background-color: rgb(238, 255, 249);
+
+        .top {
+            width: 100%;
+            height: 240px;
+
+            img {
+                width: 100%;
+                height: 240px;
+            }
+
+            :hover {
+                transform: rotatex(14deg);
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 170px;
+
+            h2 {
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                font-family: playfai Display;
+            }
+
+            p {
+                font-size: 18px;
+                color: #666666;
+                padding-left: 40px;
+                padding-right: 30px;
+                padding-top: 16px;
+            }
+        }
+    }
+}
+
+.gellary {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    .box0 {
+        width: 23%;
+        height: 242px;
+
+        img {
+            width: 100%;
+            height: 240px;
+            transition: all 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.blog {
+    width: 100%;
+    height: 700px;
+    background-image: url(../blog_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+
+    .lorem {
+        width: 80%;
+        height: 70px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .complete {
+        width: 88%;
+        height: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 80px;
+        gap: 10px;
+
+        .cart {
+            width: 32%;
+            height: 490px;
+            background-color: #fff;
+
+            .top {
+                width: 100%;
+                height: 260px;
+
+                img {
+                    width: 100%;
+                    height: 260px;
+                }
+            }
+
+            .buttom {
+                width: 85%;
+                height: 200px;
+                margin: 0 auto;
+
+                h2 {
+                    padding-top: 10px;
+                    font-family: playfair display;
+                }
+
+                h3 {
+                    padding-top: 8px;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.form {
+    width: 100%;
+    height: 540px;
+
+    h1 {
+        font-family: dancing script;
+        font-size: 50px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .name {
+        width: 48%;
+        height: 400px;
+        float: left;
+        margin-left: 20px;
+
+        input {
+            width: 100%;
+            height: 54px;
+            margin-top: 10px;
+            padding-left: 20px;
+            font-size: 18px;
+        }
+    }
+
+    .map {
+        width: 48%;
+        height: 290px;
+        float: right;
+        padding-top: 10px;
+    }
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    font-size: 19px;
+    color: white;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 370px;
+    background-color: #000000c7;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid red;
+
+    .box2 {
+        width: 20%;
+        height: 300px;
+        margin-top: 50px;
+
+        .kk {
+            width: 140px;
+            height: 40px;
+            margin: 0 auto;
+            margin-top: 16px;
+            margin-bottom: 20px;
+            margin-left: 57px;
+
+            h2 {
+                border-bottom: 4px solid red;
+                font-family: dacing script;
+                text-align: center;
+                color: white;
+            }
+        }
+
+        .add {
+            width: 220px;
+            height: 35px;
+            margin: 0 auto;
+
+            .location {
+                width: 50px;
+                height: 40px;
+                float: left;
+
+                i {
+                    font-size: 24px;
+                    float: right;
+                    margin-top: 2px;
+                    color: white;
+                }
+            }
+
+            .buttom {
+                width: 170px;
+                height: 40px;
+                float: right;
+
+                h2 {
+                    color: white;
+                    float: right;
+                    margin-right: 60px;
+                }
+            }
+        }
+    }
+
+    .box2 {
+        width: 20%;
+        height: 300px;
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+
+        input {
+            width: 90%;
+            height: 40px;
+            border: none;
+            padding-left: 20px;
+        }
+
+        .icom {
+            width: 80%;
+            height: 40px;
+            margin-top: 104px;
+
+            i {
+                padding: 12px;
+                font-size: 30px;
+                color: white;
+            }
+        }
+
+    }
+}
+
+.tamplate {
+    width: 40%;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

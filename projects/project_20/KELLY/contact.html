@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body onscroll="change_bg()">
+    <div class="header">
+        <div class="face">
+            <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="face">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="face">
+            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="resume.html">Resume</a>
+        <a href="About.html">About</a>
+        <a href="index.html">Home</a>
+        <h1>KELLY</h1>
+    </div>
+    <div class="contact_number">
+        <div class="paragraph">
+            <h1>CONTACT</h1> <br>
+            <hr style="width: 150px;margin: 0 auto;">
+            <div class="under"></div>
+        </div>
+        <div class="map">
+            <div class="left">
+                <div class="icon-name">
+                    <div class="box0">
+                        <div class="adam">
+                            <h3>Location</h3>
+                            <p>Jaslai Road Shambhunagar Shikohabad</p>
+                        </div>
+                        <div class="our">
+                            <div class="circla">
+                                <i class="fa-solid fa-location-dot" style="padding: 16px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box0">
+                        <div class="adam">
+                            <h3>Email</h3>
+                            <p>Himanshu Yadav0075@gmail.com</p>
+                        </div>
+                        <div class="our">
+                            <div class="circla">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box0">
+                        <div class="adam">
+                            <h3>Call</h3>
+                            <p>+91 7500430928</p>
+                        </div>
+                        <div class="our">
+                            <div class="circla">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email"> <br>
+                <input type="text" placeholder="Location" style="width: 95%;">
+
+                <br> <br>
+                <input type="text" placeholder="Massage" style="width: 94%; height: 130px;">
+                <button>Send Massage </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>© Copyright Kelly. Rights Kelly Reserved <br>Designed by <span>BootstarpMade</span></p>
+    </div>
+    <script>
+        function change_bg() {
+            var navBar = document.querySelector('.hero>.contain>.ahref');
+
+            if (window.scrollY > 650) {
+                navBar.style.backgroundColor = 'rgb(46, 42, 42)';
+            } else {
+                navBar.style.backgroundColor = 'transparent';
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,816 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 700px;
+    background-image: url(../slide-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .bgc {
+        width: 100%;
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        .number {
+            width: 400px;
+            height: 40px;
+            text-align: center;
+            margin-left: 40px;
+
+            .tab {
+                width: 170px;
+                height: 40px;
+                float: left;
+                padding-top: 10px;
+                font-size: 19px;
+                color: white;
+
+                i {
+                    color: orange;
+                }
+            }
+
+            .tba {
+                width: 220px;
+                height: 40px;
+                float: right;
+                padding-top: 10px;
+                font-size: 19px;
+                color: white;
+
+                i {
+                    color: orange;
+                }
+            }
+        }
+
+        ul {
+            font-size: 20px;
+            float: right;
+            color: white;
+            margin-top: -24px;
+            margin-right: 30px;
+
+            Span {
+                color: grey;
+                font-size: 20px;
+                width: 10%;
+            }
+        }
+
+        .header {
+            width: 100%;
+            height: 66px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+
+            h1 {
+                padding-left: 90px;
+                padding-top: 10px;
+                color: white;
+                font-size: 36px;
+            }
+
+            a {
+                float: right;
+                text-decoration: none;
+                color: white;
+                font-size: 19px;
+                margin-top: 5px;
+                padding: 16px;
+
+            }
+
+            button {
+                float: right;
+                width: 150px;
+                height: 40px;
+                border-radius: 23px;
+                background-color: #f09b09;
+                margin-top: 15px;
+                margin-right: 89px;
+                font-size: 16px;
+                color: white;
+                border: none;
+            }
+        }
+
+        .container {
+            width: 100%;
+            height: 580px;
+
+            .book {
+                width: 87%;
+                height: 400px;
+                margin: 0 auto;
+                margin-left: 300px;
+
+                h1 {
+                    font-size: 70px;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                    font-family: amatic sc;
+
+                    span {
+                        color: #cda45e;
+                    }
+                }
+
+                p {
+                    font-size: 28px;
+                    text-align: center;
+                    padding-top: 14px;
+                    font-family: red hat Display;
+                    color: white;
+                }
+
+                .contact {
+                    width: 50%;
+                    height: 40px;
+                    margin: 0 auto;
+                    margin-top: 100px;
+                    text-align: center;
+
+                    button {
+                        float: left;
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 23px;
+                        border: 2px solid #daa853;
+                        font-size: 16px;
+                        color: white;
+                        background: transparent;
+                    }
+
+                    .icon {
+                        width: 150px;
+                        height: 30px;
+                        background-color: transparent;
+                        float: right;
+                        font-size: 19px;
+
+                        i {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.selection {
+    width: 99%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    .left {
+        width: 43%;
+        height: 500px;
+        float: left;
+
+        img {
+            width: 100%;
+            height: 500px;
+        }
+
+    }
+
+    .right {
+        width: 55%;
+        height: 500px;
+        float: right;
+
+        h1 {
+            font-family: dancing script;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: red Hat display;
+            padding-top: 10px;
+            padding-left: 10px;
+
+            i {
+                color: orange;
+                font-size: 21px;
+            }
+        }
+    }
+}
+
+h1 {
+    font-size: 40px;
+    font-family: dancing script;
+    text-align: center;
+    color: #444;
+
+    span {
+        color: #f09b09;
+    }
+}
+
+.card {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 70px;
+
+    .box {
+        width: 31%;
+        height: 340px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 15px;
+
+        h1 {
+            color: #444;
+        }
+
+        p {
+            padding-top: 19px;
+            font-size: 19px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            color: #444;
+        }
+
+        h3 {
+            color: #f09b09;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 40px;
+        }
+    }
+}
+
+.head {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+
+    button {
+        /* float: right; */
+        width: 110px;
+        height: 40px;
+        border-radius: 23px;
+        background-color: transparent;
+        margin-top: 15px;
+        border: 2px solid #f09b09;
+        font-size: 16px;
+        color: #444;
+    }
+}
+
+.tasty-menu {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    .left {
+        width: 49%;
+        height: 430px;
+        float: left;
+
+        .show {
+            width: 100%;
+            height: 60px;
+
+            .lobster {
+                width: 100%;
+                height: 60px;
+                padding-top: 12px;
+
+                h3 {
+                    margin-top: -44px;
+                    float: right;
+                    font-size: 23px;
+                    color: #444;
+                }
+
+                h2 {
+                    color: #f09b09;
+
+                    span {
+                        color: #e2e1e1;
+                    }
+                }
+
+                p {
+                    font-size: 17px;
+                    color: rgb(102, 101, 101);
+                    padding-top: 4px;
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 49%;
+        height: 430px;
+        float: right;
+
+        .show {
+            width: 100%;
+            height: 70px;
+
+            .lobster {
+                width: 100%;
+                height: 65px;
+                padding-top: 12px;
+
+                h3 {
+                    margin-top: -44px;
+                    float: right;
+                    font-size: 23px;
+                    color: #444;
+                }
+
+                h2 {
+                    color: #f09b09;
+
+                    span {
+                        color: #ece9e9;
+                    }
+                }
+
+                p {
+                    font-size: 17px;
+                    color: rgb(102, 101, 101);
+                    padding-top: 4px;
+                }
+            }
+        }
+    }
+
+}
+
+.main {
+    width: 95%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .modi {
+        width: 25%;
+        height: 270px;
+        margin-left: 60px;
+        padding-left: 10px;
+        padding-top: 10px;
+        float: left;
+
+        p {
+            font-size: 20px;
+            color: #f09b09;
+        }
+
+        h4 {
+            font-family: poppins;
+            color: #555555;
+        }
+    }
+
+    .akhilesh {
+        width: 67%;
+        height: 250px;
+        float: right;
+        border-left: 3px solid #f09b09;
+
+        .write {
+            width: 65%;
+            height: 270px;
+            float: left;
+
+            p {
+                font-size: 20px;
+                color: #555555;
+                padding-top: 10px;
+                padding-left: 23px;
+            }
+
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            float: right;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.events {
+    width: 100%;
+    height: 700px;
+    background-image: url(../events-bg\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .content {
+        position: absolute;
+        z-index: 2;
+        
+    }
+
+    p {
+        color: white;
+        font-size: 17px;
+
+        span {
+            color: #969592;
+            font-size: 16px;
+        }
+    }
+
+    h1 {
+        color: #cda45e;
+        font-size: 40px;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+
+    .birthday {
+        width: 40%;
+        height: 400px;
+        margin-top: 90px;
+        float: left;
+        margin-left: 120px;
+
+        img {
+            width: 100%;
+            height: 400px;
+        }
+    }
+
+    .party {
+        width: 40%;
+        height: 400px;
+        float: right;
+        margin-top: 90px;
+        margin-right: 120px;
+
+        h3 {
+            font-size: 28px;
+        }
+
+        li {
+            font-size: 19px;
+            color: #a5a4a4;
+            padding-top: 11px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-top: 10px;
+            color: rgb(194, 194, 194);
+        }
+
+        h2 {
+            color: #cda45e;
+        }
+    }
+
+    h1 {
+        font-size: 43px;
+        color: white;
+        position: relative;
+    }
+}
+
+.form {
+
+    .send-massage {
+        width: 87%;
+        height: 400px;
+        margin: 0 auto;
+        box-shadow: 1px 3px 8px 8px rgb(209, 209, 209);
+        margin-top: 50px;
+
+        input {
+            width: 45%;
+            height: 55px;
+            padding: 20px;
+            margin: 18px;
+            border: 1px solid rgb(192, 191, 191);
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            background-color: #f09b09;
+            font-size: 17px;
+            color: white;
+            border: none;
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0px;
+    row-gap: 3px;
+    margin-top: 70px;
+
+    .box1 {
+        width: 333px;
+        height: 250px;
+
+        img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+.selection {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 70px;
+
+    .instructor-name {
+        width: 25%;
+        height: 460px;
+        background-color: #f1f9fa;
+
+        .top {
+            width: 100%;
+            height: 320px;
+
+            img {
+                width: 100%;
+                height: 320px;
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 150px;
+            position: relative;
+            text-align: center;
+
+            .instra {
+                width: 200px;
+                height: 50px;
+                position: absolute;
+                left: 50px;
+                top: -35px;
+                background-color: #f1f9fa;
+
+                i {
+                    font-size: 30px;
+                    padding: 6px 10px;
+                    color: #ffa200;
+                }
+
+                h2 {
+                    font-size: 24px;
+                }
+            }
+
+        }
+    }
+}
+
+.about {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: magenta;
+    background-image: url(testimonials-bg.jpg);
+
+    .annimation {
+        width: 60%;
+        height: 250px;
+        margin: 0 auto;
+        border-left: 4px solid #ffa200;
+        margin-top: 50px;
+
+        p {
+            color: white;
+            padding-left: 20px;
+            font-size: 20px;
+
+            i {
+                color: #ffa200;
+                font-size: 25px;
+            }
+        }
+
+        h2 {
+            padding-top: 30px;
+            padding-left: 20px;
+            color: #e2e1e1;
+            font-size: 29px;
+        }
+
+        h5 {
+            padding-left: 20px;
+            font-size: 20px;
+        }
+
+        img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            float: right;
+            margin-right: 40px;
+            margin-top: 60px;
+            border: 6px solid grey;
+        }
+    }
+}
+
+.contact-us {
+    width: 100%;
+    height: 1150px;
+    margin: 0 auto;
+
+    .map {
+        width: 87%;
+        height: 310px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .address {
+        width: 87%;
+        height: 260px;
+        margin: 0 auto;
+        margin-top: 19px;
+        padding-top: 19px;
+
+        .box0 {
+            width: 46%;
+            height: 100px;
+            float: left;
+
+            .our {
+                width: 30%;
+                height: 70px;
+                padding-top: 13px;
+
+                .circla {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #daa853;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    float: right;
+
+                    i {
+                        font-size: 30px;
+                        padding: 10px;
+                        color: white;
+                    }
+                }
+            }
+
+            .adam {
+                width: 63%;
+                height: 70px;
+                float: right;
+                margin-top: 23px;
+
+                h3 {
+                    font-size: 22px;
+                    color: rgb(53, 50, 50);
+                }
+
+                p {
+                    color: rgb(62, 63, 63);
+                }
+            }
+        }
+    }
+
+    .send-massage {
+        width: 87%;
+        height: 370px;
+        margin: 0 auto;
+        box-shadow: 2px 2px 6px 5px rgb(218, 218, 218);
+
+        input {
+            width: 45%;
+            height: 55px;
+            padding: 20px;
+            margin: 18px;
+            border: 1px solid rgb(192, 191, 191);
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            background-color: #ffa200;
+            font-size: 17px;
+            color: white;
+            border: none;
+            margin-left: 490px;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #2b2a2a;
+
+    h1 {
+        color: #ffa200;
+        font-size: 50px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: Playfair display;
+    }
+
+    .box02 {
+        width: 22%;
+        height: 150px;
+        text-align: center;
+        margin-left: 39px;
+        margin: 0 auto;
+
+        h2 {
+            color: white;
+            padding-left: 10px;
+        }
+
+        .us {
+            width: 230px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+
+        .insta {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            gap: 23px;
+            padding-top: 10px;
+
+            .follow {
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                border: 1px solid rgb(145, 148, 155);
+                margin-left: 2px;
+
+                i {
+                    font-size: 26px;
+                    color: white;
+                    padding: 9px;
+                }
+            }
+        }
+    }
+
+    h4 {
+        text-align: center;
+        color: #f1f9fa;
+        font-size: 20px;
+
+        span {
+            color: #ffa200;
+        }
+    }
+}

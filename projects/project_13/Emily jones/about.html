@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(../bg\ \(1\).jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .header {
+            width: 100%;
+            height: 85px;
+            background-color: rgb(2, 2, 1);
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+
+
+            h1 {
+                float: left;
+                color: white;
+                padding-left: 50px;
+            }
+
+            a {
+                float: right;
+                color: rgb(230, 226, 226);
+                padding: 35px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+
+        .resume {
+            width: 90%;
+            height: 1300px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(2px);
+            margin-top: 100px;
+
+            .check {
+                width: 400px;
+                height: 80px;
+                margin-left: 90px;
+                padding-top: 20px;
+
+                h3 {
+                    color: #bbbec0;
+
+                    span {
+                        color: rgb(24, 210, 110);
+                    }
+                }
+
+                h1 {
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+
+            .my {
+                width: 380px;
+                height: 120px;
+                margin: 0 auto;
+                text-align: center;
+
+                h1 {
+                    color: rgb(68, 64, 64);
+                    font-size: 35px;
+                }
+
+                p {
+                    color: rgb(230, 226, 226);
+                    font-size: 18px;
+                    padding-top: 20px;
+                }
+            }
+
+            h1 {
+                color: rgb(68, 64, 64);
+                font-size: 35px;
+            }
+
+            p {
+                color: rgb(230, 226, 226);
+                font-size: 18px;
+                padding-top: 20px;
+            }
+
+            .sumary {
+                width: 40%;
+                height: 450px;
+                float: left;
+                margin-left: 100px;
+
+                .alice_barkley {
+                    width: 95%;
+                    height: 300px;
+                    padding-right: 50px;
+                    margin: 0 auto;
+                    border-left: 2px solid #82909c;
+                    margin-top: 10px;
+                    position: relative;
+                    padding-left: 15px;
+
+                    li {
+                        font-size: 19px;
+                        color: rgb(230, 226, 226);
+                    }
+
+                    h2 {
+                        color: rgb(24, 210, 110);
+                        font-size: 19px;
+                    }
+                }
+
+                .alice_barkley::before {
+                    content: "";
+                    height: 17px;
+                    width: 17px;
+                    border: 2px solid rgb(24, 210, 110);
+                    border-radius: 50px;
+                    background-color: rgb(24, 210, 110);
+                    position: absolute;
+                    top: 0;
+                    left: -13px;
+                }
+
+                .education {
+                    width: 95%;
+                    height: 730px;
+                    margin: 0 auto;
+                    border-left: 2px solid #82909c;
+                    position: relative;
+                    padding-left: 15px;
+
+                    h4 {
+                        font-size: 17px;
+                        color: rgb(230, 226, 226);
+                    }
+
+                    h3 {
+                        color: rgb(24, 210, 110);
+                        padding-top: 10px;
+                    }
+
+                    &::before {
+                        content: "";
+                        height: 17px;
+                        width: 17px;
+                        border: 2px solid rgb(24, 210, 110);
+                        border-radius: 50px;
+                        background-color: rgb(24, 210, 110);
+                        position: absolute;
+                        top: 0;
+                        left: -13px;
+                    }
+
+                }
+            }
+
+            .senior {
+                width: 40%;
+                height: 850px;
+                padding-top: 5px;
+                float: right;
+                margin-right: 100px;
+
+                .alice_barkley {
+                    width: 95%;
+                    height: 1110px;
+                    margin: 0 auto;
+                    border-left: 2px solid #82909c;
+                    margin-top: 10px;
+                    position: relative;
+                    padding-left: 15px;
+
+                    h2 {
+                        color: rgb(24, 210, 110);
+                        font-size: 19px;
+                    }
+
+                    h4 {
+                        font-size: 17px;
+                        color: rgb(230, 226, 226);
+                    }
+
+                    li {
+                        font-size: 18px;
+                        color: rgb(230, 226, 226);
+                    }
+
+                }
+
+                .alice_barkley::before {
+                    content: "";
+                    height: 17px;
+                    width: 17px;
+                    border: 2px solid rgb(24, 210, 110);
+                    border-radius: 50px;
+                    background-color: rgb(24, 210, 110);
+                    position: absolute;
+                    top: 0;
+                    left: -13px;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="resume.html">Resume</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+        <h1>Emily Jones</h1>
+    </div>
+    <div class="resume">
+        <div class="check">
+            <h3>RESUME <span>___________</span></h3>
+            <h1>CHECK MY RESUME</h1>
+        </div>
+        <div class="sumary">
+            <h2 style="padding-left: 30px; font-size: 30px;color: white;">Sumary</h2>
+            <div class="alice_barkley">
+                <h2>ALICE BARKLEY</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore delectus quas natus eius iure, quidem
+                    voluptates ratione harum id molestiae, corrupti veniam itaque quis cumque vero accusantium aut
+                    beatae
+                    iste?</p> <br> <br>
+                <li>Portland par 127,Orlando,Fl</li> <br>
+                <li> (143) 456-7891</li> <br>
+                <li>alice.barkley@example.com</li>
+            </div>
+            <h2 style="padding-left: 30px; font-size: 30px;color: white;">Education</h2>
+            <div class="education">
+                <h3>MASTER OF FINE ARTS & GRAPHIC DESIGN</h3> <br>
+                <h2 style="background-color: rgb(182, 178, 178); width: 120px;height: 30px;text-align: center;">
+                    2015-2016
+                </h2> <br>
+                <h4>Rochester Institute of Technology, Rochester,Ny</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum molestias consequatur non sapiente
+                    cumque nobis earum sit harum autem cum, officia accusamus quidem aliquam eos nostrum ea voluptatibus
+                    a
+                    dolores?</p>
+                <br> <br>
+                <h3>MASTER OF FINE ARTS & GRAPHIC DESIGN</h3> <br>
+                <h2 style="background-color: rgb(182, 178, 178); width: 120px;height: 30px;text-align: center;">
+                    2015-2016
+                </h2> <br>
+                <h4>Rochester Institute of Technology, Rochester,Ny</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum molestias consequatur non sapiente
+                    cumque nobis earum sit harum autem cum, officia accusamus quidem aliquam eos nostrum ea voluptatibus
+                    a
+                    dolores?</p>
+            </div>
+        </div>
+        <div class="senior">
+            <h2 style="padding-left: 30px; font-size: 30px;color: white;">Professional Experience</h2>
+            <div class="alice_barkley">
+                <h2>SENIOR GRAPHIC DESIGNER SPECIALIST</h2> <br>
+                <h2
+                    style="background-color: rgb(182, 178, 178); width: 140px;height: 30px;text-align: center; color: rgb(19, 18, 18); font-size: 24px;">
+                    2023- Present</h2> <br>
+                <h4>Experion, New York, Ny</h4> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br> <br>
+                <br>
+                <br> <br>
+                <h2> GRAPHIC DESIGNER SPECIALIST</h2> <br>
+                <h2
+                    style="background-color: rgb(182, 178, 178); width: 120px;height: 30px;text-align: center; color: black;font-size: 24px;">
+                    2023-2024</h2> <br>
+                <h4>Msk Institute Shikohabad,Firozabad</h4> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li> <br>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero architecto sint </li>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

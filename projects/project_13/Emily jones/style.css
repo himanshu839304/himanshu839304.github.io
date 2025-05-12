@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 700px;
+    background-image: url(../bg\ 33.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    .box {
+        width: 40%;
+        height: 400px;
+        margin-left: 120px;
+        h1 {
+            color: #fff;
+            font-size: 50px;
+        }
+        h2 {
+            color: rgb(181, 180, 180);
+            font-size: 25px;
+            span {
+                color: #fff;
+            }
+        }
+        .header{
+
+            a {
+                text-decoration: none;
+                padding: 12px;
+                font-size: 20px;
+                color: darkgrey;
+            }
+        }
+        .con {
+            width: 250px;
+            height: 60px;
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+
+            .facebook {
+                width: 45px;
+                height: 45px;
+                border: 2px solid grey;
+                border-radius: 50%;
+                
+                i {
+                    font-size: 27px;
+                    color: white;
+                    padding: 8px;
+                }
+
+            }
+        }
+    }
+}
+
+.resume {
+    width: 90%;
+    height: 1080px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    .my {
+        width: 380px;
+        height: 120px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            color: rgb(68, 64, 64);
+            font-size: 35px;
+        }
+
+        p {
+            color: rgb(107, 106, 106);
+            font-size: 18px;
+            padding-top: 20px;
+        }
+    }
+
+    h1 {
+        color: rgb(68, 64, 64);
+        font-size: 35px;
+    }
+
+    p {
+        color: rgb(107, 106, 106);
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .sumary {
+        width: 40%;
+        height: 900px;
+        padding-top: 5px;
+        float: left;
+        margin-left: 100px;
+
+        .alice_barkley {
+            width: 95%;
+            height: 300px;
+            padding-right: 50px;
+            margin: 0 auto;
+            border-left: 2px solid #82909c;
+            margin-top: 10px;
+            position: relative;
+            padding-left: 15px;
+
+            li {
+                font-size: 19px;
+                color: rgb(39, 37, 37);
+            }
+
+            h2 {
+                color: darkorange;
+                font-size: 19px;
+            }
+        }
+
+        .alice_barkley::before {
+            content: "";
+            height: 18px;
+            width: 18px;
+            border: 2px solid #82909c;
+            border-radius: 50px;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: -13px;
+        }
+
+        .education {
+            width: 95%;
+            height: 500px;
+            margin: 0 auto;
+            border-left: 2px solid #82909c;
+            position: relative;
+            padding-left: 15px;
+
+            h4 {
+                font-size: 17px;
+                color: grey;
+            }
+
+            h3 {
+                color: darkorange;
+                padding-top: 10px;
+            }
+
+            &::before {
+                content: "";
+                height: 18px;
+                width: 18px;
+                border: 2px solid #82909c;
+                border-radius: 50px;
+                background-color: #fff;
+                position: absolute;
+                top: 0;
+                left: -13px;
+            }
+
+        }
+    }
+
+    .senior {
+        width: 40%;
+        height: 850px;
+        padding-top: 5px;
+        float: right;
+        margin-right: 100px;
+
+        .alice_barkley {
+            width: 95%;
+            height: 850px;
+            margin: 0 auto;
+            border-left: 2px solid #82909c;
+            margin-top: 10px;
+            position: relative;
+            padding-left: 15px;
+
+            h2 {
+                color: darkorange;
+                font-size: 19px;
+            }
+
+            h4 {
+                font-size: 17px;
+                color: grey;
+            }
+
+            li {
+                font-size: 18px;
+                color: rgb(55, 49, 49);
+            }
+
+        }
+
+        .alice_barkley::before {
+            content: "";
+            height: 16px;
+            width: 16px;
+            border: 2px solid #82909c;
+            border-radius: 50px;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: -13px;
+        }
+    }
+}

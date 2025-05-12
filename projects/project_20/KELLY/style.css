@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 700px;
+    background-image: url(../hero-bg\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .header {
+        width: 100%;
+        height: 80px;
+        background-color: hsl(0, 0%, 89%);
+        position: fixed;
+        top: 0;
+        
+        h1 {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        a {
+            float: right;
+            text-decoration: none;
+            font-size: 19px;
+            padding: 20px;
+            padding-top: 30px;
+            color: hsl(0, 2%, 51%);
+        }
+
+        .face {
+            width: 40px;
+            height: 40px;
+            float: right;
+            margin-top: -10px;
+            padding-top: 14px;
+            padding-left: 9px;
+            font-size: 22px;
+
+            i {
+                color: grey;
+            }
+        }
+    }
+
+    .box {
+        width: 35%;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 310px;
+
+        h1 {
+            font-size: 50px;
+            color: hsl(0, 2%, 12%);
+        }
+
+        p {
+            font-size: 21px;
+            color: rgb(88, 87, 87);
+        }
+
+        button {
+            width: 140px;
+            height: 45px;
+            background-color: hsl(172, 54%, 46%);
+            margin: 0 auto;
+            color: white;
+            font-size: 18px;
+            border-radius: 40px;
+            border: none;
+        }
+    }
+}
+.container {
+    width: 100%;
+    height: 100px;
+    background-color:hsl(0, 0%, 89%);
+    p {
+        color: hsl(194, 7%, 38%);
+        text-align: center;
+        padding-top: 40px;
+        span {
+            color: hsl(164, 23%, 52%);
+        }
+    }
+}

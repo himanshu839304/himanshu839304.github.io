@@ -1,0 +1,839 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(1, 43, 77);
+
+    .number {
+        width: 400px;
+        height: 40px;
+        text-align: center;
+        margin-left: 40px;
+
+        .tab {
+            width: 170px;
+            height: 40px;
+            float: left;
+            padding-top: 10px;
+            font-size: 19px;
+            color: white;
+
+            i {
+                color: orange;
+            }
+        }
+
+        .Clock {
+            width: 220px;
+            height: 40px;
+            float: right;
+            padding-top: 10px;
+            font-size: 19px;
+            color: white;
+
+            i {
+                color: orange;
+            }
+        }
+    }
+
+    .call {
+        width: 340px;
+        height: 40px;
+        float: right;
+        padding-top: 10px;
+
+        i {
+            color: orange;
+            float: left;
+            padding-right: 5px;
+        }
+
+        span {
+            font-size: 19px;
+            color: white;
+            float: left;
+        }
+
+        .face {
+            width: 40px;
+            height: 40px;
+            border-right: 1px solid grey;
+            float: right;
+            margin-top: -10px;
+            padding-top: 8px;
+            padding-left: 9px;
+            font-size: 22px;
+
+            i {
+                color: goldenrod;
+            }
+        }
+    }
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #fff !important;
+
+    .elearning {
+        width: 140px;
+        height: 50px;
+        margin-left: 50px;
+
+        i {
+            font-size: 31px;
+            color: #06BBCC !important;
+            float: left;
+            padding-top: 16px;
+        }
+
+        .write {
+            color: gold !important;
+
+            h2 {
+                float: right;
+                font-size: 27px;
+                padding-top: 16px;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        float: right;
+        padding: 20px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .join {
+        width: 160px;
+        height: 60px;
+        background-color: gold !important;
+        float: right;
+
+        h2 {
+            float: left;
+            padding-top: 15px;
+            color: white;
+            padding-left: 7px;
+        }
+    }
+
+    .left {
+        width: 50px;
+        height: 60px;
+        float: right;
+        padding-top: 20px;
+        color: white;
+    }
+}
+
+.hero {
+    width: 100%;
+    height: 650px;
+    background-image: url(../carousel-1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    text-align: center;
+    background-attachment: fixed;
+    top: 0px;
+    left: 0px;
+
+    .box {
+        width: 40%;
+        height: 400px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 65px;
+            color: #fff;
+        }
+
+        .read {
+            width: 470px;
+            height: 65px;
+            display: flex;
+            gap: 23px;
+            margin: 0 auto;
+            margin-top: 40px;
+
+            .join {
+                width: 200px;
+                height: 60px;
+                background-color: #fff;
+                text-align: center;
+                padding-top: 13px;
+
+                h2 {
+                    color: white;
+                    font-size: 23px;
+                }
+            }
+
+            .join:hover {
+                background-color: rgb(96, 235, 235);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .card {
+        width: 80%;
+        height: 130px;
+        background-color: wheat;
+        margin: 0 auto;
+        margin-top: -20px;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: rgba(228, 223, 223, 0.5) 4px 2px 10px 5px;
+
+        .cart {
+            width: 360px;
+            height: 130px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 15px;
+
+            .icon {
+                width: 100px;
+                height: 130px;
+                float: left;
+                padding-top: 40px;
+
+                .car {
+                    width: 40px;
+                    height: 40px;
+                    background-color: goldenrod;
+                    margin: 0 auto;
+                    font-size: 29px;
+                    color: gold;
+                }
+            }
+
+            h2 {
+                padding: 10px;
+                padding-top: 20px;
+                color: rgb(2, 2, 78);
+            }
+
+            p {
+                font-size: 18px;
+                color: rgb(95, 94, 94);
+            }
+        }
+    }
+}
+
+.container {
+    width: 85%;
+    height: 790px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 77px;
+
+    .left {
+        width: 45%;
+        height: 500px;
+        background-color: red;
+        float: left;
+
+        img {
+            width: 100%;
+            height: 500px;
+
+        }
+
+        .cname {
+            width: 30%;
+            height: 180px;
+            margin-top: -540px;
+
+            img {
+                width: 100%;
+                border: 11px solid white;
+                height: 170px;
+
+            }
+        }
+    }
+
+    h3 {
+        color: gold !important;
+        padding-left: 580px;
+    }
+
+    .right {
+        width: 49%;
+        height: 500px;
+        float: right;
+
+        h1 {
+            color: rgb(3, 3, 31);
+            font-size: 38px;
+        }
+
+        p {
+            padding: 10px;
+            padding-right: 40px;
+            font-size: 19px;
+            color: rgb(95, 94, 94);
+        }
+
+        .online {
+            width: 76%;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+
+            .color {
+                width: 200px;
+                height: 100px;
+
+                p {
+                    font-size: 19px;
+                    color: rgb(95, 94, 94);
+                }
+            }
+
+            .bgc {
+                width: 200px;
+                height: 100px;
+
+                p {
+                    font-size: 19px;
+                    color: rgb(95, 94, 94);
+                }
+            }
+        }
+
+        button {
+            width: 190px;
+            height: 60px;
+            background-color: gold !important;
+            border: none;
+            border-radius: 3px;
+            font-size: 19px;
+            color: #fff;
+        }
+
+        .join {
+            width: 190px;
+            height: 60px;
+            border: 2px solid rgb(233, 183, 56) !important;
+            float: right;
+            margin-right: 100px;
+            padding-top: 10px;
+            padding-left: 9px;
+
+            i {
+                background-color: gold !important;
+                text-align: center;
+                padding-top: 12px;
+            }
+
+            span {
+                font-size: 19px;
+                color: rgb(233, 183, 56);
+            }
+        }
+    }
+}
+
+.drive {
+    width: 35%;
+    height: 170px;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 39px;
+        color: rgb(3, 3, 31);
+    }
+
+    h3 {
+        color: gold !important;
+    }
+}
+
+.selection {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .driving_card {
+        width: 32%;
+        height: 550px;
+
+        .tops {
+            width: 100%;
+            height: 230px;
+            padding-top: 20px;
+
+            .dollar {
+                width: 80px;
+                height: 40px;
+                background-color: goldenrod;
+                font-size: 24px;
+                text-align: center;
+                padding-top: 8px;
+                margin: 0 auto;
+                color: rgb(228, 225, 225);
+            }
+
+            h2 {
+                text-align: center;
+                padding: 10px;
+                color: rgb(0, 0, 66);
+            }
+
+            p {
+                text-align: center;
+                font-size: 19px;
+                color: rgb(121, 117, 117);
+            }
+
+            .biginers {
+                width: 74%;
+                height: 45px;
+                margin: 0 auto;
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-between;
+
+                .box2 {
+                    width: 50%;
+                    height: 40px;
+
+                    h3 {
+                        text-align: center;
+                        float: right;
+                        padding-right: 24px;
+                        padding-top: 10px;
+                        color: rgb(160, 157, 157);
+                    }
+
+                    i {
+                        padding-left: 24px;
+                        padding-top: 10px;
+                        color: rgb(233, 183, 56);
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+
+        .bottoms {
+            width: 100%;
+            height: 300px;
+
+            img {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}
+
+.form {
+    width: 50%;
+    height: 450px;
+    background-color: rgb(255, 183, 0) !important;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    h1 {
+        text-align: center;
+        color: rgb(3, 3, 31);
+        padding-top: 40px;
+        font-size: 38px;
+    }
+
+    .test {
+        width: 92%;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+        input {
+            width: 46%;
+            height: 55px;
+            padding: 14px;
+            margin-left: 10px;
+            font-size: 15px;
+            border: none;
+        }
+
+        button {
+            width: 95%;
+            height: 54px;
+            background-color: rgb(2, 32, 46);
+            margin: 0 auto;
+            margin-left: 10px;
+            font-size: 19px;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+.contain {
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 77px;
+
+    .right {
+        width: 45%;
+        height: 500px;
+        float: right;
+
+        img {
+            width: 100%;
+            height: 500px;
+
+        }
+
+        .cname {
+            width: 34%;
+            height: 180px;
+            margin-top: -540px;
+            margin-left: 350px;
+
+            img {
+                width: 100%;
+                border: 11px solid white;
+                height: 180px;
+
+            }
+        }
+    }
+
+    h3 {
+        color: gold !important;
+    }
+
+    .left {
+        width: 49%;
+        height: 500px;
+        float: left;
+
+        h1 {
+            color: rgb(3, 3, 31);
+            font-size: 38px;
+        }
+
+        p {
+            padding: 10px;
+            padding-right: 40px;
+            font-size: 19px;
+            color: rgb(95, 94, 94);
+        }
+
+        .online {
+            width: 100%;
+            height: 220px;
+            display: flex;
+            justify-content: space-around;
+
+            .color {
+                width: 280px;
+                height: 200px;
+
+                p {
+                    font-size: 23px;
+                    color: rgb(34, 32, 32);
+                }
+
+                h4 {
+                    font-size: 18px;
+                    color: rgb(66, 62, 62);
+                    padding-left: 30px;
+                }
+            }
+
+            .bgc {
+                width: 280px;
+                height: 200px;
+
+                p {
+                    font-size: 23px;
+                    color: rgb(34, 32, 32);
+                }
+
+                h4 {
+                    font-size: 18px;
+                    color: rgb(66, 62, 62);
+                    padding-left: 30px;
+                }
+            }
+        }
+
+        button {
+            width: 190px;
+            height: 60px;
+            background-color: gold !important;
+            border: none;
+            border-radius: 3px;
+            font-size: 19px;
+            color: #fff;
+        }
+
+        .join {
+            width: 190px;
+            height: 60px;
+            border: 2px solid rgb(233, 183, 56) !important;
+            float: right;
+            margin-right: 100px;
+            padding-top: 10px;
+            padding-left: 9px;
+
+            i {
+                background-color: gold !important;
+                text-align: center;
+                padding-top: 12px;
+            }
+
+            span {
+                font-size: 19px;
+                color: rgb(233, 183, 56);
+            }
+        }
+    }
+}
+
+.team_driving {
+    width: 85%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    .great {
+        width: 24%;
+        height: 370px;
+        background-color: rgb(238, 255, 255);
+
+        .trainer {
+            width: 100%;
+            height: 270px;
+            background-color: rgb(216, 255, 255);
+
+            img {
+                width: 100%;
+                height: 270px;
+            }
+        }
+
+        .name {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            padding-top: 26px;
+
+            p {
+                font-size: 19px;
+                color: rgba(63, 60, 60, 0.5);
+                padding-top: 5px;
+            }
+
+            h2 {
+                color: rgb(20, 19, 19);
+            }
+        }
+    }
+}
+
+.says {
+    width: 80%;
+    margin: 0 auto;
+
+    .top-name {
+        width: 15%;
+        height: 200px;
+        margin: 0 auto;
+
+        img {
+            border-radius: 25%;
+            border: 6px solid rgb(214, 210, 210);
+            margin: 0 auto;
+            transition: all 0.09s;
+            position: relative;
+        }
+
+        .con {
+            width: 60px;
+            height: 60px;
+            background-color: rgb(255, 252, 223);
+            border-radius: 50%;
+            position: absolute;
+            margin: 0 auto;
+            margin-left: 49px;
+            margin-top: -40px;
+
+            i {
+                font-size: 38px;
+                color: rgb(255, 183, 0);
+                padding: 12px;
+            }
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            border: 6px solid gold;
+        }
+    }
+
+    .bottom-name {
+        width: 53%;
+        height: 250px;
+        margin: 0 auto;
+        text-align: center;
+
+        p {
+            padding: 10px;
+            font-size: 19px;
+            color: rgb(161, 158, 158);
+        }
+
+        h2 {
+            padding-top: 10px;
+            color: rgb(1, 68, 99);
+        }
+
+        .gold {
+            width: 120px;
+            height: 50px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 12px;
+
+            .golden {
+                width: 25px;
+                height: 25px;
+                border: 2px solid rgb(216, 185, 6);
+            }
+        }
+    }
+}
+.footer {
+    width: 100%;
+    height: 420px;
+    background-color: hsl(210, 72%, 17%);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    h1 {
+        text-align: center;
+    }
+
+    .box2 {
+        width: 22%;
+        height: 350px;
+        margin-top: 70px;
+
+        h2 {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .arrow {
+            width: 180px;
+            height: 40px;
+            margin: 0 auto;
+            margin-top: 10px;
+
+            p {
+                font-size: 18px;
+                color: white;
+
+                i {
+                    padding-right: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .insta {
+        height: 40px;
+
+        h2 {
+            font-family: dancing script;
+            font-size: 37px;
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 33px;
+        }
+    }
+    h3 {
+        font-size: 24px;
+        color: white;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .con {
+        width: 250px;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-left: 44px;
+
+        .facebook {
+            width: 40px;
+            height: 40px;
+            border: 2px solid grey;
+
+            i {
+                font-size: 27px;
+                color: white;
+                padding: 6px;
+            }
+
+        }
+    }
+}
+.site {
+    width: 100%;
+    height: 80px;
+    background-color: hsl(210, 73%, 12%);
+    h2 {
+        font-size: 19px;
+        color: rgb(255, 183, 0);
+        padding-top: 14px;
+        padding-left: 70px;
+        span {
+            color: #fff;
+        }
+    }
+    p {
+        color: #fff;
+        float: right;
+        padding-right: 150px;
+        letter-spacing: 1px;
+        span {
+            color: rgb(255, 183, 0);
+        }
+    }
+}

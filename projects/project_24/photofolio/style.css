@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 99.5%;
+    height: 1850px;
+    background-color: #000000;
+    margin: 0 auto;
+
+    .header {
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+
+        .cart {
+            width: 22%;
+            height: 80px;
+            margin-top: 30px;
+            i {
+                font-size: 35px;
+                padding: 15px;
+                color: rgb(34, 230, 138);
+            }
+            a {
+                font-size: 19px;
+                text-decoration: none;
+                color:hsl(72, 3%, 34%);
+                padding: 15px;
+            }
+            
+            .face {
+                width: 30px;
+                height: 30px;
+                float: right;
+                display: flex;
+                margin-right: 25px;
+                margin-top: -15px;
+                
+                
+                i {
+                    font-size: 22px;
+                    color: hsl(210, 2%, 35%);
+                }
+            }
+        }
+    }
+
+    .box {
+        width: 100%;
+        height: 330px;
+        margin-top: 70px;
+
+        h1 {
+            font-size: 60px;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 90px;
+        }
+
+        p {
+            font-size: 19px;
+            color: rgb(192, 193, 194);
+            text-align: center;
+        }
+
+        .content {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            margin-top: 20px;
+
+            .part {
+                width: 20%;
+                height: 70px;
+
+                i {
+                    font-size: 35px;
+                    padding: 15px;
+                    color: rgb(34, 230, 138);
+                }
+
+                .con {
+                    width: 180px;
+                    height: 60px;
+                    display: flex;
+                    margin: 0 auto;
+
+                    .facebook {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+
+                        i {
+                            font-size: 24px;
+                            color: rgb(172, 172, 172);
+                            padding: 12px;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        .line {
+            width: 29%;
+            height: 12px;
+            background-color: rgb(46, 238, 158);
+            border-radius: 0px 0px 5px 5px;
+            margin: 0 auto;
+        }
+    }
+
+    .main {
+        width: 90%;
+        height: 660px;
+        margin: 0 auto;
+        margin-top: 80px;
+
+        .left {
+            width: 30%;
+            height: 500px;
+            float: left;
+
+            img {
+                width: 100%;
+                height: 500px;
+            }
+        }
+
+        .right {
+            width: 63%;
+            height: 650px;
+            float: right;
+            margin-right: 30px;
+
+            h2 {
+                color: rgb(46, 238, 158);
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: dancing script;
+                padding-right: 130px;
+                color: hsl(0, 1%, 65%);
+            }
+
+            .name {
+                width: 90%;
+                height: 200px;
+                margin: 0 auto;
+                display: flex;
+                gap: 5px;
+                margin-top: 20px;
+
+                .part1 {
+                    width: 53%;
+                    height: 200px;
+                    padding: 2px;
+
+                    h3 {
+                        font-size: 22px;
+                        color: rgb(197, 189, 189);
+
+                        span {
+                            color: rgb(141, 139, 139);
+                        }
+
+                        i {
+                            color: rgb(46, 238, 158);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    h4 {
+        color: rgb(192, 194, 196);
+        letter-spacing: 1px;
+        font-size: 15px;
+        padding-left: 70px;
+
+        span {
+            color: #35ffa1;
+        }
+    }
+
+    h2 {
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .contain {
+        width: 95%;
+        height: 540px;
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+
+        .cart {
+            width: 27%;
+            height: 430px;
+            background-color: rgb(31, 32, 31);
+
+            .top {
+                width: 100%;
+                height: 260px;
+
+                p {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+            }
+
+            .bottom {
+                width: 100%;
+                height: 150px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    border: 5px solid grey;
+                    margin: 0 auto;
+                    margin-left: 130px;
+                }
+
+                h2 {
+                    font-size: 23px;
+                    text-align: center;
+                    padding-right: 40px;
+                    padding-top: 15px;
+                    color: #cecece;
+                }
+
+                p {
+                    color: #999797;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+    .container {
+        width: 100%;
+        height: 100px;
+        background-color: #000000;
+
+        p {
+            color: hsl(200, 2%, 62%);
+            text-align: center;
+            padding-top: 40px;
+            border-top: 2px solid rgb(12, 12, 12);
+
+            span {
+                color: hsl(164, 23%, 52%);
+            }
+        }
+    }
+}

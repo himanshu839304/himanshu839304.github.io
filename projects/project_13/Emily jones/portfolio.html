@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+
+
+    <style>
+        body {
+            background-image: url(../bg\ \(1\).jpg );
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .header {
+            width: 100%;
+            height: 85px;
+            background-color: rgb(2, 2, 1);
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+
+
+            h1 {
+                float: left;
+                color: white;
+                padding-left: 50px;
+                font-size: 40px;
+            }
+
+            a {
+                float: right;
+                color: rgb(230, 226, 226);
+                padding: 35px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+
+        .container {
+            width: 80%;
+            height: 1040px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(2px);
+            margin-top: 120px;
+
+            h4 {
+                color: grey;
+                font-size: 15px;
+                padding-left: 18px;
+
+                span {
+                    color: hsl(148, 80%, 47%);
+                }
+            }
+
+            .cart {
+                width: 30%;
+                height: 70px;
+                margin: 0 auto;
+                gap: 5px;
+
+                button {
+                    width: 69px;
+                    height: 36px;
+                    background: rgba(255, 255, 255, 0.08);
+                    border: none;
+                    border-radius: 5px;
+                    color: aliceblue;
+                    cursor: pointer;
+                }
+            }
+
+            .main {
+                width: 100%;
+                height: 850px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .box0 {
+                    width: 31%;
+                    height: 255px;
+                    margin: 0 auto;
+
+                    img {
+                        width: 100%;
+                        height: 255px;
+                        transition: all 0.5s;
+                    }
+
+                    img:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="contact.html">Contact</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="resume.html">Resume</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+        <h1>Emily Jones</h1>
+    </div>
+
+    <div class="container">
+
+        <h4>PORTFOLIO <span>———————</span></h4>
+        <h1 style="color: aliceblue;padding-left: 18px;">MY WORKS</h1>
+        <div class="cart">
+            <button style="background-color: hsl(148, 80%, 47%);">ALL</button>
+            <button>APP</button>
+            <button>CARD</button>
+            <button>WEB</button>
+        </div>
+
+        <div class="main">
+            <div class="box0">
+                <img src="portfolio-1 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-2 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-3 (3).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-4 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-5 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-6 (3).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-7 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-8 (2).jpg" alt="">
+            </div>
+            <div class="box0">
+                <img src="portfolio-9 (2).jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
